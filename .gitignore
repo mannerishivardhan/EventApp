@@ -1,0 +1,30 @@
+# Credentials & Secrets
+credentials.json
+*.env
+.env.*
+
+# Data files
+event_data.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
